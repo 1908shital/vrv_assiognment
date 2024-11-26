@@ -1,0 +1,85 @@
+/* src/components/PermissionList.css */
+
+/* Container styles */
+.permission-list-container {
+    background-color: #1a202c; /* Dark background */
+    color: white;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  /* Title */
+  .permission-list-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 24px;
+  }
+  
+  /* Permission list */
+  .permission-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  /* Permission card */
+  .permission-card {
+    background-color: #2d3748; /* Slightly lighter dark gray */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    border-radius: 8px;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .permission-card:hover {
+    background-color: #4a5568; /* Even lighter gray on hover */
+  }
+  
+  /* Permission name */
+  .permission-name {
+    font-size: 18px;
+  }
+  
+  /* Delete button */
+  .delete-button {
+    background-color: #e53e3e; /* Red */
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .delete-button:hover {
+    background-color: #c53030; /* Darker red */
+  }
+  
+  /* Add button */
+  .add-button {
+    display: block;
+    width: 100%;
+    margin-top: 24px;
+    background-color: #38a169; /* Green */
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .add-button:hover {
+    background-color: #2f855a; /* Darker green */
+  }
+  
